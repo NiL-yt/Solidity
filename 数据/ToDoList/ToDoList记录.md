@@ -88,7 +88,7 @@ mapping(_KeyType => _ValueType) visibility identifier
 
 ### 4.函数功能修饰
 
-> [函数可见性](#visibility)
+> [函数状态/功能可见性](#visibility)
 
 - view：表明函数只读取数据，不修改状态。适用于查询函数，不消耗 gas。
 - pure：表明函数既不读取数据也不修改状态，仅执行计算。适用于数学函数或纯粹的计算，不消耗 gas。
